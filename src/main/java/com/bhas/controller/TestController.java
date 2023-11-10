@@ -13,6 +13,6 @@ public class TestController
 	public String greetMsg()
 	{
 		log.info("Logging");
-		return "Welcome to SpringBoot,";
+		return "Welcome to Dock Application 1,";
 	}
 }
