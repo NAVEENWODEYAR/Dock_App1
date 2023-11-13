@@ -14,6 +14,7 @@ public class DockApp1Application
 	public static void main(String[] args) 
 	{
 		SpringApplication.run(DockApp1Application.class, args);
+		System.out.println("\n \n");
 	}
 
 }
