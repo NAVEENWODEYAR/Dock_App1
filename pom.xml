@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Dock_App1</name>
 	<description>Demo project for creating the docker Image</description>
+	<packaging>war</packaging>
 	<properties>
 		<java.version>21</java.version>
 	</properties>
