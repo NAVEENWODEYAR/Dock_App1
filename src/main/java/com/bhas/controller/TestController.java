@@ -11,11 +11,11 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class TestController 
 {
-	@GetMapping
+	@GetMapping("/get")
 	@ResponseStatus(code = HttpStatus.FOUND)
 	public String greetMsg()
 	{
 		log.info("Logging");
-		return "Welcome to "+"Dock Application 1,"+"";
+		return "Welcome to "+"Docking Application 1,"+"";
 	}
 }
