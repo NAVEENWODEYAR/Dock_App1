@@ -15,7 +15,7 @@ public class TestController
 	@ResponseStatus(code = HttpStatus.FOUND)
 	public String greetMsg()
 	{
-		log.info("Logging");
+		log.info("Logging,");
 		return "Welcome to "+"Docking Application 1,"+"";
 	}
 }
